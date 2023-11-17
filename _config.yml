@@ -1,5 +1,5 @@
-title: jones_the_cat
-description: "Ora sta a sentire sorella, non torno a fare quella vita,<br>sono il libero ruspante solitario. E sottolineo libero!"
+title: Jones the Cat
+# description: "Ora sta a sentire sorella, non torno a fare quella vita,<br>sono il libero ruspante solitario. E sottolineo libero!"
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
@@ -10,5 +10,5 @@ github:
 menu:
   home: ./
   experiences: ./experiences.html
-  learning: ./learning_path.html
+  learning_path: ./learning_path.html
   machines: ./machines.html
