@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Esperienze
+  link: /experiences.html
+- name: Learning
+  link: /learning_path.html
+- name: Exploits
+  link: /machines.html
