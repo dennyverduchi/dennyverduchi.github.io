@@ -4,11 +4,17 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
+cv: /assets/images/dennyverduchi_cv_2023.pdf
+
 github:
   repository_url: https://github.com/dennyverduchi
 
-menu:
-  home: ./
-  experiences: ./experiences.html
-  learning_path: ./learning_path.html
-  machines: ./machines.html
+machines:
+  blue: /pages/machines/blue.html
+
+cybersec:
+  dns: /pages/cybersec/dns.html
+  eternalblue: /pages/cybersec/eternalblue.html
+
+finance:
+  trading-investing: /pages/finance/trading_investing.html

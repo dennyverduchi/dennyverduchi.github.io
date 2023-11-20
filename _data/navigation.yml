@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: Esperienze
-  link: /experiences.html
+  link: /pages/experiences.html
 - name: Learning
-  link: /learning_path.html
+  link: /pages/learning_path.html
 - name: Exploits
-  link: /machines.html
+  link: /pages/machines.html

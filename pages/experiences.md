@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 _Questo non è un curriculum, solo un riassunto della mia vita lavorativa, per chi volesse approfondire la persona dietro il "professionista" e scoprire qual è il filo rosso che collega le esperienze elencate nel mio CV._
 
 <span style="color:#46eac7">
@@ -29,6 +30,8 @@ In un primo momento sono contento di avere biglietti gratis per lo stadio, poi m
 
 A 25 anni decido di rimettermi alla prova e mi iscrivo all'<a href="https://www.informatica.unifi.it/" target="_blank">univeristà di Firenze</a>, percorso di laurea in Informatica. La motivazione iniziale non era la più intelligente lo ammetto (provengo da una vita di insufficienze gravi in matematica), ma volevo dimostrare a me stesso che avevo ancora del potenziale inespresso. Il primo anno lo affronto tra il lavoro e lo studio. A lavoro riesco ad ottenere un nuovo incarico come receptionist negli uffici della dirigenza, per via di una maggiore flessibilità oraria, ma gli studi procedono a rilento e finisco il primo anno con 2 esami su 5 sul libretto di studi ("Programmazione" e "Algoritmi e strutture dati"). Decido di lasciare il mio lavoro alla Fiorentina e nei 4 anni successivi riesco a finire gli esami, mentre mi impegno come posso con lavori saltuari.
 
+Una delle esperienze più significative in questo periodo per me è stata quella delle ripetizioni. Ho lavorato con molti ragazzi in difficoltà nelle materie scientifiche, durante gli anni di università, e credo che riuscire ad aver empatizzato con loro, per via del mio background scolastico, abbia inciso positivamente sia sui loro risultati, sempre ottimi, che sulle mie capacità di ascolto e interazione con gli altri. Dai ragazzi che ho seguito ho imparato una delle lezioni più importanti che ancora oggi mi porto dentro, mettere sempre in discussione me stesso. Se un ragazzo/a non capiva qualcosa dovevo partire dal presupposto che stavo sbagliando io il modo di comunicare con lui/lei.
+
 L'univeristà ha cambiato la mia vita. Non tanto per le competenze acquisite, che personalmente ritengo possano essere ottenute anche con altri percorsi (anche se le difficoltà universitarie ti lasciano una forma mentis, una volta superate), quanto piuttosto per la voglia di sfida che mi ha fatto tornare, dopo anni in cui avevo perso la gioia per la competizione, anche con me stesso.
 
 Ho fatto amicizia con i migliori del corso e con loro ho studiato, poi sono rimasto indietro, ho preso voti più bassi di loro, eppure ogni esame è stato un gioco bellissimo, ogni fallimento una spinta a fare meglio. Ho imparato a studiare e a divertirmi facendolo, ho imparato a stare nella frustrazione, ho imparato a collaborare e a difendere le mie idee, ho imparato a fare un passo indietro. 
@@ -37,7 +40,7 @@ Ho fatto amicizia con i migliori del corso e con loro ho studiato, poi sono rima
 
 Dopo qualche mese di lavoro sulla tesi ("Generation of an images dataset for autonomous driving, enriched with movement information") mi laureo con 95 nella solitudine della mia stanza, in quanto le misure anti-COVID impediscono una regolare cerimonia.
 
-Dopo pochi giorni dalla laurea mi trovo seduto al computer in cerca di stimoli per dare una direzione alla mia carriera e trovo un annuncio dell'università di Modena e Reggio Emilia che pubblicizza uno spin-off dei suoi corsi universitari che sarebbe iniziato da li a poco, la <a href="https://cyber.unimore.it/" target="_blank">Cyber Academy</a>. Decido quindi di iscrivermi ad entrambi i corsi che propongono, Security Analyst e Penetration Tester, per una durata complessiva di 6 mesi. Il corso mi entusiasma moltissimo e inizio ad approfondire un po' di aspetti legati alla Cyber Security, come ad esempio in quale ruolo mi vedrei di più, quali sono le notizie dell'argomento che smuovono di più il mio interesse. Purtroppo però non riesco a proseguire per molto, in quanto non mi sento ancora pronto per entrare a far parte di questo mondo, lavorativamente parlando, ma la necessità di trovare un impiego si fa sempre più pressante.
+Pochi giorni dopo la laurea mi trovo seduto al computer in cerca di stimoli per dare una direzione alla mia carriera e trovo un annuncio dell'università di Modena e Reggio Emilia che pubblicizza uno spin-off dei suoi corsi universitari che sarebbe iniziato da li a poco, la <a href="https://cyber.unimore.it/" target="_blank">Cyber Academy</a>. Decido quindi di iscrivermi ad entrambi i corsi che propongono, Security Analyst e Penetration Tester, per una durata complessiva di 6 mesi. Il corso mi entusiasma moltissimo e inizio ad approfondire un po' di aspetti legati alla Cyber Security, come ad esempio in quale ruolo mi vedrei di più, quali sono le notizie dell'argomento che smuovono di più il mio interesse. Finiti i due corsi però non riesco a proseguire per molto, in quanto non mi sento ancora pronto per entrare a far parte di questo mondo, lavorativamente parlando, ma la necessità di trovare un impiego si fa sempre più pressante.
 
 <span style="color:#46eac7">inverno 2022</span>
 
