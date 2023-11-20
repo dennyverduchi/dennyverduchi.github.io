@@ -15,7 +15,7 @@ Proverò a tenerle in un certo ordine di difficoltà, totalmente soggettiva, dov
 
 | <span style="color:#46eac7">Very Easy</span> | <span style="color:#46eac7">Easy</span> | <span style="color:#46eac7">Medium</span> | <span style="color:#46eac7">Hard</span> | <span style="color:#46eac7">Too Hard</span> |
 |:-------------|:------------------|:-------------|:-------------|:-------------|
-| <a href="{{ site.machines.blue }}" target="_blank">Blue</a> |                   |              |              |              |
+| <a href="{{ site.machines.blue }}">Blue</a> |                   |              |              |              |
 |              |                   |              |              |              |
 |              |                   |              |              |              |
 |              |                   |              |              |              |

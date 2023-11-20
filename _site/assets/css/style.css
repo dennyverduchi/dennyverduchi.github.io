@@ -220,7 +220,7 @@ dt {
   font-weight: bold;
 }
 
-ul li {
+.menu-element {
   list-style-image: url("../images/bullet.png");
 }
 
@@ -293,10 +293,11 @@ hr {
 }
 
 .btn:hover {
+  color: #b5e853;
   background: rgba(49, 150, 236, 0.4);
 }
 
-.btn .icon {
+.btn .git-icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -304,9 +305,22 @@ hr {
   float: left;
 }
 
-.btn-github .icon {
+.btn .linkedin-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 1px 8px 0 0;
+  float: left;
+}
+
+.btn-git .git-icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-linkedin .linkedin-icon {
+  opacity: 0.6;
+  background: url("../images/linkedin.png") 0 0 no-repeat;
 }
 
 #scroll-top-button {

@@ -21,7 +21,6 @@ window.onload = function() {
     var numRandom = Math.floor(Math.random() * numCit);
     var pElement = document.createElement("p");
     var h2Element = document.createElement("h2");
-    console.log(numRandom)
 
     switch(numRandom){
         case 0:

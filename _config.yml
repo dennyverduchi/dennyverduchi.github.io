@@ -4,10 +4,11 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-cv: /assets/images/dennyverduchi_cv_2023.pdf
+cv: /assets/pdf/dennyverduchi_cv_2023.pdf
 
-github:
-  repository_url: https://github.com/dennyverduchi
+github: https://github.com/dennyverduchi
+
+linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
 
 machines:
   blue: /pages/machines/blue.html
