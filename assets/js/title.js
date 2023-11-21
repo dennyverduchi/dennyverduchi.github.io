@@ -20,56 +20,57 @@ window.onload = function() {
     // selezione random della quote
     let numRandom = Math.floor(Math.random() * numCit);
     let pElement = document.createElement("p");
-    let h2Element = document.createElement("h4");
-    h2Element.style.color= "#666";
+    let h4Element = document.createElement("h4");
+    h4Element.style.color= "#666";
 
     switch(numRandom){
         case 0:
-            h2Element.innerText = "“Ora sta a sentire sorella, non torno a fare quella vita. Sono il libero, ruspante, solitario. E sottolineo libero!”\n(Galline in fuga, 2000)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Ora sta a sentire sorella, non torno a fare quella vita. Sono il libero, ruspante, solitario. E sottolineo libero!”\n(Galline in fuga, 2000)";
+            pElement.appendChild(h4Element);
         break;
 
         case 1:
-            h2Element.innerText = "“Vengono fuori dalle pareti! Vengono fuori dalle fottute pareti!”\n(Aliens Scontro finale, 1986)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Vengono fuori dalle pareti! Vengono fuori dalle fottute pareti!”\n(Aliens Scontro finale, 1986)";
+            pElement.appendChild(h4Element);
         break;
 
         case 2:
-            h2Element.innerText = "“Strade? Dove stiamo andando non c'è bisogno di strade!”\n(Ritorno al futuro, 1985)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Strade? Dove stiamo andando non c'è bisogno di strade!”\n(Ritorno al futuro, 1985)";
+            pElement.appendChild(h4Element);
         break;
 
         case 3:
-            h2Element.innerText = "“Non può piovere per sempre.”\n(Il Corvo, 1994)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Non può piovere per sempre.”\n(Il Corvo, 1994)";
+            pElement.appendChild(h4Element);
         break;
 
         case 4:
-            h2Element.innerText = "“Beati gli smemorati, perché avranno la meglio anche sui loro errori.”\n(Se mi lasci ti cancello, 2004)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Beati gli smemorati, perché avranno la meglio anche sui loro errori.”\n(Se mi lasci ti cancello, 2004)";
+            pElement.appendChild(h4Element);
         break;
 
         case 5:
-            h2Element.innerText = "“Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una cazzo di commedia!”\n(Joker, 2019)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una cazzo di commedia!”\n(Joker, 2019)";
+            pElement.appendChild(h4Element);
         break;
 
         case 6:
-            h2Element.innerText = "“Ci vediamo quando ci vediamo.”\n(Ocean's Thirteen, 2007)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Ci vediamo quando ci vediamo.”\n(Ocean's Thirteen, 2007)";
+            pElement.appendChild(h4Element);
         break;
 
         case 7:
-            h2Element.innerText = "“Se non fumi le Tarrlytons... vaffanculo!”\n(Idiocracy, 2006)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Se non fumi le Tarrlytons... vaffanculo!”\n(Idiocracy, 2006)";
+            pElement.appendChild(h4Element);
         break;
 
         case 8:
-            h2Element.innerText = "“Le obbligazioni ipotecarie sono merda di cane, i CDO sono merda di cane avvolta in merda di gatto.”\n(La Grande Scommessa, 2015)";
-            pElement.appendChild(h2Element);
+            h4Element.innerText = "“Le obbligazioni ipotecarie sono merda di cane, i CDO sono merda di cane avvolta in merda di gatto.”\n(La Grande Scommessa, 2015)";
+            pElement.appendChild(h4Element);
         break;
     }
 
+    console.log(document.getElementsByClassName('quote');
     document.getElementsByClassName('quote')[0].appendChild(pElement);
 };
 
