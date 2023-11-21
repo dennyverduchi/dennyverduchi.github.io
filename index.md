@@ -1,5 +1,5 @@
 ---
-layout: maintenance
+layout: default
 ---
 
 <p style="background:rgba(10, 10, 10, 0.5);">
