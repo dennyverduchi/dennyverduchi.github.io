@@ -62,7 +62,6 @@ header {
   width: 100%;
   // border-bottom: 1px dashed $conifer; //header;
   padding: 20px 0;
-  margin: 0 0 40px 0;
 }
 
 header h1 {
@@ -100,10 +99,30 @@ header h2 {
   margin: 0;
 }
 
+/* Navigation menu
+*/
+
+.nav-menu {
+  font-size: 22px;
+  // list-style-type: none;
+  padding: 20px 20px;
+  justify-content: center;
+  justify-items: center;
+  width: auto;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.menu-element {
+  margin-bottom: 10px;
+}
+
 /* Main Content
 */
 
 #main_content {
+  text-align: justify;
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
@@ -155,7 +174,7 @@ dt {
   font-weight: bold;
 }
 
-ul li {
+.menu-element{
   list-style-image:url('../images/bullet.png');
 }
 
@@ -219,7 +238,8 @@ hr {
   border: 2px solid rgba(0, 0, 0, 0.7);
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
   border-top: 2px solid rgba(0, 0, 0, 1);
-  color: rgba(255, 255, 255, 0.8);
+  color: #b5e853;
+  // color: rgba(255, 255, 255, 0.8);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -229,10 +249,12 @@ hr {
 }
 
 .btn:hover {
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  // background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
+  color: #b5e853;
+  background: rgba(49, 150, 236, 0.4);
 }
 
-.btn .icon {
+.btn .git-icon {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -240,9 +262,35 @@ hr {
   float: left;
 }
 
-.btn-github .icon {
+.btn .linkedin-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 1px 8px 0 0;
+  float: left;
+}
+
+.btn-git .git-icon {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
+}
+
+.btn-linkedin .linkedin-icon {
+  opacity: 0.6;
+  background: url("../images/linkedin.png") 0 0 no-repeat;
+}
+
+#scroll-top-button {
+  // background-image:url('../images/vertical_bullet.png');
+  // background-repeat: no-repeat;
+  // background-position: 20% 50%;
+  padding: 20px 50px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
 }
 
 /* Links
@@ -253,6 +301,10 @@ a {
   color: #63c0f5;
   text-decoration: none;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+a:hover {
+  color: #46eac7;
 }
 
 /* Clearfix */
