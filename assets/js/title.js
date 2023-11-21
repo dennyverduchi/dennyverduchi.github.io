@@ -3,26 +3,25 @@ const numCit = 9;
 window.onload = function() {
 
     // animazione del nome sito
-    var elements = document.getElementsByClassName('typewrite');
+    let elements = document.getElementsByClassName('typewrite');
 
-    for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
+    for (let i=0; i<elements.length; i++) {
+            let toRotate = elements[i].getAttribute('data-type');
+            let period = elements[i].getAttribute('data-period');
         if (toRotate) {
             new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
 
-    var css = document.createElement("style");
+    let css = document.createElement("style");
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; color: #b5e853}";
     document.body.appendChild(css);
 
     // selezione random della quote
-    // var numRandom = getRndInteger(0, numCit);
-    var numRandom = Math.floor(Math.random() * numCit);
-    console.log(numRandom);
-    var pElement = document.createElement("p");
-    var h2Element = document.createElement("h2");
+    let numRandom = Math.floor(Math.random() * numCit);
+    let pElement = document.createElement("p");
+    let h2Element = document.createElement("h4");
+    h2Element.style.color= "#666";
 
     switch(numRandom){
         case 0:
@@ -74,10 +73,6 @@ window.onload = function() {
     document.getElementsByClassName('quote')[0].appendChild(pElement);
 };
 
-function getRndInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) ) + min;
-}
-
 class TxtType {
 
     constructor(el, toRotate, period) {
@@ -91,8 +86,8 @@ class TxtType {
     }
 
     tick() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+        let i = this.loopNum % this.toRotate.length;
+        let fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
             this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -102,8 +97,8 @@ class TxtType {
 
         this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
-        var that = this;
-        var delta = 200 - Math.random() * 150;
+        let that = this;
+        let delta = 200 - Math.random() * 150;
 
         if (this.isDeleting) { delta /= 2; }
 
