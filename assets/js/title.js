@@ -70,7 +70,6 @@ window.onload = function() {
         break;
     }
 
-    console.log(document.getElementsByClassName('quote'));
     document.getElementsByClassName('quote')[0].appendChild(pElement);
 };
 
