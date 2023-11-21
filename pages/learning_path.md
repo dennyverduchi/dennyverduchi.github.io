@@ -9,8 +9,8 @@ Per quanto riguarda la prima, molto del materiale sarà presente anche dentro al
 Il tema finanza invece ha catturato moltissimo il mio interesse negli ultimi anni, e per quanto non possa dire di essere un esperto in sicurezza informatica, almeno è un terreno di battaglia che sto imparando a riconoscere, cosa che non mi sento di poter dire per il mondo del trading e degli investimenti. Tuttavia ho comunque interesse a scrivere i miei pensieri al riguardo, sia per verificare il livello di competenza acquisito nel tempo, sia per cercare di razionalizzare il mio processo di investimento.
 
 
-| <span style="color:#46eac7">Cyber Security</span>          | <span style="color:#46eac7">Finanza</span> |
-|:-----------------------------------------------------------|:-------------------------------------------|
-| <a href="{{ site.cybersec.dns }}">DNS</a>  | <a href="{{ site.finance.trading-investing }}">Differenze tra Trading e Investing</a> |
-| <a href="{{ site.cybersec.eternalblue }}">EternalBlue</a>  |   |
+| <span style="color:#46eac7">Cyber Security</span> | <span style="color:#46eac7">Finanza</span> |
+|:--------------------------------------------------|:-------------------------------------------|
+| <a href="{{ site.cybersec.dns }}">DNS</a>         | <a href="{{ site.finance.gestione }}">Gestione</a> |
+| <a href="{{ site.cybersec.eternalblue }}">EternalBlue</a>  | <a href="{{ site.finance.trading-investing }}">Trading o Investing</a> |
 

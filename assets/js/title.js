@@ -1,4 +1,4 @@
-const numCit = 7;
+const numCit = 9;
 
 window.onload = function() {
 
@@ -18,7 +18,9 @@ window.onload = function() {
     document.body.appendChild(css);
 
     // selezione random della quote
+    // var numRandom = getRndInteger(0, numCit);
     var numRandom = Math.floor(Math.random() * numCit);
+    console.log(numRandom);
     var pElement = document.createElement("p");
     var h2Element = document.createElement("h2");
 
@@ -26,48 +28,55 @@ window.onload = function() {
         case 0:
             h2Element.innerText = "“Ora sta a sentire sorella, non torno a fare quella vita. Sono il libero, ruspante, solitario. E sottolineo libero!”\n(Galline in fuga, 2000)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 1:
             h2Element.innerText = "“Vengono fuori dalle pareti! Vengono fuori dalle fottute pareti!”\n(Aliens Scontro finale, 1986)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 2:
             h2Element.innerText = "“Strade? Dove stiamo andando non c'è bisogno di strade!”\n(Ritorno al futuro, 1985)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 3:
             h2Element.innerText = "“Non può piovere per sempre.”\n(Il Corvo, 1994)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 4:
             h2Element.innerText = "“Beati gli smemorati, perché avranno la meglio anche sui loro errori.”\n(Se mi lasci ti cancello, 2004)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 5:
             h2Element.innerText = "“Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una cazzo di commedia!”\n(Joker, 2019)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
         break;
 
         case 6:
             h2Element.innerText = "“Ci vediamo quando ci vediamo.”\n(Ocean's Thirteen, 2007)";
             pElement.appendChild(h2Element);
-            numRandom = Math.floor(Math.random() * numCit)
+        break;
+
+        case 7:
+            h2Element.innerText = "“Se non fumi le Tarrlytons... vaffanculo!”\n(Idiocracy, 2006)";
+            pElement.appendChild(h2Element);
+        break;
+
+        case 8:
+            h2Element.innerText = "“Le obbligazioni ipotecarie sono merda di cane, i CDO sono merda di cane avvolta in merda di gatto.”\n(La Grande Scommessa, 2015)";
+            pElement.appendChild(h2Element);
         break;
     }
 
     document.getElementsByClassName('quote')[0].appendChild(pElement);
 };
+
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
 class TxtType {
 

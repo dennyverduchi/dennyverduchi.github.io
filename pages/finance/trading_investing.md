@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Differenze tra Trading e Investing
+# Trading o Investing
 
 Inizialmente credevo che i termini <span style="color:#46eac7">trading</span> e <span style="color:#46eac7">investing</span> fossero equivalenti e quindi intercambiabili a piacimento. Poi ho notato che venivano usati da chi conosce l'ambiente in contesti diversi, quindi ho facilmente intuito che la differenza a cui di solito si fa più riferimento è l'orizzonte temporale.
 
@@ -51,7 +51,7 @@ Per inciso, nonostante operi sul mercato seguendo questi presupposti, <span styl
 * 5% FTSE Euro Corporate Bond
 * 5% Bloomberg Commodity Index
 
-Non sono sicuro della rilevanza nel differenziare tra Government e Corporate per quanto riguarda i Bond. Dovrò approfondire la questione.
+Non sono sicuro della rilevanza nel differenziare tra Government e Corporate per quanto riguarda i Bond. Dovrò approfondire la questione. Inoltre se volessi essere perfettamente coerente con quanto detto fino ad ora, anche gli ETF relativi ai bond dovrebbero seguire indici che tracciano a livello globale invece che solo europeo.
 
 ## Trading
 
@@ -59,13 +59,15 @@ Questo a mio avviso è il vero tema caldo. L'arena dove tutti hanno voglia di ge
 
 Sarò sincero, per il momento non mi sento pronto a gettarmi in questo mondo, ma non nego che ho una forte curiosità. Ho da pochissimo finito di leggere un libro che mi ha condizionato molto, non solo nel mio approccio alla finanza.
 
+Indicativamente il testo cerca di far capire al lettore che una buona strategia è quella di individuare un <span style="color:#46eac7">trend crescente</span> e che possibilmente non sia soggetto a subire bruschi cambiamenti, entrare a mercato e proteggersi con strategie di <span style="color:#46eac7">stop loss ben ponderate</span>. Mediamente ci saranno momenti in cui ci sono <span style="color:#46eac7">piccole perdite</span> e momenti in cui ci sono <span style="color:#46eac7">piccoli profitti</span>, generando una situazione di equilibrio. Questo in attesa del momento in cui uno dei trend positivi individuati non si riveli essere <span style="color:#46eac7">positivo per molto tempo</span>, continuando così ad alimentarlo e alzando progressivamente i livelli di stop loss di conseguenza.
+
 Il tema centrale del libro è semplice, quando fai trading <span style="color:#46eac7">non lo fai per massimizzare il profitto, ma per minimizzare il rischio</span>. Il trader migliore non è quello che fa x1000 una volta perchè "ha letto i segni", ma quello che sistematicamente, quando le cose vanno male, riesce a ridurre al minimo il capitale perso. Devo dire che nonostante la diffidenza iniziale, proseguendo con la lettura mi sono trovato d'accordo con questa definizione. Lanciarsi nel mondo del trading inseguendo un sogno, una speranza, un'ambizione, rischia di trasformarsi velocemente verso il baratro della rovina. 
 
-Ci vuole lucidità, freddezza. <span style="color:#46eac7">Sapere quando chiudere una posizione in perdita e non rimanerne condizionati</span> (non esiste la domanda: "se fossi rimasto forse avrei recuperato?"), <span style="color:#46eac7">sapere quando chiudere una posizione in profitto e non rimanerne condizionati</span> (non esiste la domanda: "se fossi rimasto forse avrei guadagnato di più?"). <span style="color:#46eac7">Se ti fai domande non hai strategia</span>, non sai quello che stai facendo. Se ti fai domande stai sperando che le cose vadano bene. Un buon trader non è quello che spera, ma quello che analizza in modo distaccato se la situazione è buona o no e che in entrambi i casi sa già cosa fare. Proteggersi con tutti gli strumenti che ha a disposizione.
+Ci vuole lucidità, freddezza. <span style="color:#46eac7">Sapere quando chiudere una posizione in perdita e non rimanerne condizionati</span> (non esiste la domanda: "se fossi rimasto forse avrei recuperato?"), <span style="color:#46eac7">sapere quando chiudere una posizione in profitto e non rimanerne condizionati</span> (non esiste la domanda: "se fossi rimasto forse avrei guadagnato di più?"). <span style="color:#46eac7">Se ti fai domande non hai strategia</span>, non sai quello che stai facendo. Se ti fai domande stai sperando che le cose vadano bene. Un buon trader non è quello che spera, ma quello che analizza in modo distaccato se la situazione è buona o no e che in entrambi i casi sa già cosa fare. Proteggersi con tutti gli strumenti che ha a disposizione. Con questo non si intende ovviamente che non si debbano analizzare gli "errori", dove per errore però intendiamo "strategia sbagliata", non "profitto troppo basso".
 
 ### E quindi?
 
-Quello che ho capito fino ad oggi è che l'investimento è un'operazione che richiede una buona preparazione di partenza. Dobbiamo riflettere sul fatto che, comunque vadano le cose, il nostro capitale è esposto alle fluttuazioni di mercato per un lungo periodo, e questo ci espone ad una certa quantità di rischio, che andrebbe bilanciata con una <span style="color:#46eac7">strategia</span> il più <span style="color:#46eac7">equilibrata</span> possibile. Inoltre andrebbero adottate delle tecniche di <span style="color:#46eac7">ribilanciamento del portafogli</span> con il passare del tempo, spostando le alte percentuali dell'azionario verso l'obbligazionario per proteggere il profitto al momento di uscita dal mercato.
+Quello che ho capito fino ad oggi è che l'investimento è un'operazione che richiede una buona preparazione di partenza. Dobbiamo riflettere sul fatto che, comunque vadano le cose, il nostro capitale è esposto alle fluttuazioni di mercato per un lungo periodo, e questo ci espone ad una certa quantità di rischio, che andrebbe bilanciata con una <span style="color:#46eac7">strategia</span> il più <span style="color:#46eac7">equilibrata</span> possibile. Inoltre andrebbero adottate delle tecniche di <span style="color:#46eac7">ribilanciamento del portafogli</span> con il passare del tempo, spostando le alte percentuali dell'azionario verso l'obbligazionario per proteggere il profitto all'avvicinarsi dell'uscita dal mercato.
 
 Un'operazione di trading invece necessita, oltre che di un set di <span style="color:#46eac7">conoscenze tecniche</span> sicuramente molto più ampio, anche di una strategia sulla <span style="color:#46eac7">finestra di tempo</span> che vogliamo sfruttare. Generalmente ci sono molti momenti validi per entrare e pochi per uscire. Inoltre credo che, almeno per le prime esperienze, debba essere la curiosità a muoverti, la voglia di capire. Inseguire il sogno del guadagno è un rischio che non voglio correre.
 

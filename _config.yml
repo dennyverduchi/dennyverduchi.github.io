@@ -18,4 +18,5 @@ cybersec:
   eternalblue: /pages/cybersec/eternalblue.html
 
 finance:
+  gestione: /pages/finance/gestione.html
   trading-investing: /pages/finance/trading_investing.html
