@@ -69,7 +69,6 @@ window.onload = function() {
             pElement.appendChild(h4Element);
         break;
     }
-    
     document.getElementsByClassName('quote')[0].appendChild(pElement);
 };
 
