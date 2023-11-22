@@ -10,8 +10,8 @@ github: https://github.com/dennyverduchi
 
 linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
 
-machines:
-  blue: /pages/machines/blue.html
+ctf:
+  blue: /pages/ctf/blue.html
 
 cybersec:
   dns: /pages/cybersec/dns.html

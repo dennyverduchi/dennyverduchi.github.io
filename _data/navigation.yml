@@ -4,5 +4,5 @@
   link: /pages/experiences.html
 - name: Learning
   link: /pages/learning_path.html
-- name: Exploits
-  link: /pages/machines.html
+- name: CTF
+  link: /pages/ctf.html
