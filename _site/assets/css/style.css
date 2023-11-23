@@ -121,6 +121,27 @@ body {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+  #a-title {
+    font-size: 26px;
+  }
+  #downloads .btn {
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+  }
+  #scroll-top-button {
+    font-size: 12px;
+    padding: 20px 50px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 50px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+  }
+}
 @media screen and (max-width: 1400px) {
   .col-content {
     margin: 0px auto 200px;
@@ -128,6 +149,7 @@ body {
   .second-menu {
     visibility: visible;
     position: relative;
+    font-size: 18px;
   }
   .col-menu {
     margin: 0px;
