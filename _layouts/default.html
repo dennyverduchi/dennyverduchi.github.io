@@ -52,17 +52,27 @@
     </div>
   </header>
 
-  <div class="nav-menu">
-    <ul>
-      {% for item in site.data.navigation %}
-      <li class="menu-element"><a href="{{ item.link }}" {% if page.url==item.link %}style="color: #b5e853" {% else
-          %}style={color: #3196ec} :hover{color: #46eac7}{% endif %}>{{ item.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+  <div class="row">
+    <div class="col-menu">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li class="menu-element"><a href="{{ item.link }}" {% if page.url==item.link %}style="color: #b5e853" {% else
+            %}style={color: #3196ec} :hover{color: #46eac7}{% endif %}>{{ item.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
 
-  <div class="container-body">
-    <section id="main_content">{{ content }}</section>
+    <div class="col-content">
+      <div class="second-menu">
+        <ul>
+          {% for item in site.data.navigation %}
+          <li class="menu-element"><a href="{{ item.link }}" {% if page.url==item.link %}style="color: #b5e853" {% else
+              %}style={color: #3196ec} :hover{color: #46eac7}{% endif %}>{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <section id="main_content">{{ content }}</section>
+    </div>
   </div>
 
   <button onclick="topFunction()" class="btn" id="scroll-top-button" title="Go to top">$ ./TOP</button> 

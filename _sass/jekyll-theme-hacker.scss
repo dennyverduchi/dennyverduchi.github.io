@@ -24,18 +24,73 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
+/* Navigation menu
+*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-menu {
+  visibility: visible;
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 40px 20px 0;
+  box-sizing: border-box;
+  
+  font-size: 20px;
+  list-style-type: none;
+  justify-content: center;
+  justify-items: center;
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.second-menu {
+  visibility: hidden;
+  position: absolute;
+  box-sizing: border-box;  
+  font-size: 20px;
+  list-style-type: none;
+  justify-content: center;
+  justify-items: center;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.col-content {
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 40px auto 200px;
+  box-sizing: border-box;
+}
+
+.menu-element {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .col-content {
+    margin: 0px auto 200px;
+  }
+
+  .second-menu {
+    visibility: visible;
+    position: relative;
+  }
+
+  .col-menu {
+    margin: 0px;
+    visibility: hidden;
+  }
+}
+
 /* General & 'Reset' Stuff */
 
 .container-header {
   width: 90%;
   max-width: $container-max-width;
   margin: 0 auto;
-}
-
-.container-body {
-  width: 90%;
-  max-width: $container-max-width;
-  margin: 40px auto 200px;
 }
 
 section {
@@ -96,25 +151,6 @@ header h2 {
   display: inline-block;
   text-align: center;
   margin: 0;
-}
-
-/* Navigation menu
-*/
-
-.nav-menu {
-  font-size: 22px;
-  // list-style-type: none;
-  padding: 20px 20px;
-  justify-content: center;
-  justify-items: center;
-  width: auto;
-  height: 100%; /* Full height */
-  position: fixed; /* Make it stick, even on scroll */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
-}
-
-.menu-element {
-  margin-bottom: 10px;
 }
 
 /* Main Content
