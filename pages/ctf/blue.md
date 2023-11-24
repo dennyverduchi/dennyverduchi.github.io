@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Blue
+# Blue (HTB)
 
 Come primo approccio lancio una scansione TCP SYN sulle porte con <span style="color:#46eac7">nmap</span>, dove cerco di farmi dare anche la versione dei servizi.
 
