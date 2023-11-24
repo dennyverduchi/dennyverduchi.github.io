@@ -13,10 +13,11 @@ linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
 ctf:
   blue: /pages/ctf/blue.html
 
-cybersec:
-  dns: /pages/cybersec/dns.html
-  eternalblue: /pages/cybersec/eternalblue.html
+learning:
+  cybersec:
+    dns: /pages/learning/cybersec/dns.html
+    eternalblue: /pages/learning/cybersec/eternalblue.html
 
-finance:
-  gestione: /pages/finance/gestione.html
-  trading-investing: /pages/finance/trading_investing.html
+  finance:
+    gestione: /pages/learning/finance/gestione.html
+    trading-investing: /pages/learning/finance/trading_investing.html
