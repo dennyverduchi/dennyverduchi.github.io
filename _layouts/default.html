@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="it-IT">
 
 <head>
   <!-- Google tag (gtag.js) -->
+  <title>Jones the Cat</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SQCK02DBQK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -12,6 +13,9 @@
     gtag('config', 'G-SQCK02DBQK');
   </script>
   <meta charset='utf-8'>
+  <meta name="description" content="Il mio viaggio nella cybersecurity">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Jones the Cat">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://www.jonesthecat.net">
@@ -37,13 +41,13 @@
 
       <section id="downloads">
         {% if site.show_downloads %}
-          <a href="{{ site.cv }}" class="btn btn-doc" target="_blank">
+          <a href="{{ site.cv }}" class="btn btn-doc" target="_blank" title="download_curriculum">
             <span class="doc-icon"></span>Download CV
           </a>
-          <a href="{{ site.github }}" class="btn btn-git" target="_blank">
+          <a href="{{ site.github }}" class="btn btn-git" target="_blank" title="link_github">
             <span class="git-icon"></span>GitHub
           </a>
-          <a href="{{ site.linkedin }}" class="btn btn-linkedin" target="_blank">
+          <a href="{{ site.linkedin }}" class="btn btn-linkedin" target="_blank" title="link_linkedin">
             <span class="linkedin-icon"></span>LinkedIn
           </a>
         {% endif %}
@@ -56,7 +60,7 @@
     <div class="col-menu">
       <ul>
         {% for item in site.data.navigation %}
-        <li class="menu-element"><a href="{{ item.link }}" {% if page.url==item.link %}style="color: #b5e853" {% else
+        <li class="menu-element"><a href="{{ item.link }}" title="{{ item.name }}" {% if page.url==item.link %}style="color: #b5e853" {% else
             %}style={color: #3196ec} :hover{color: #46eac7}{% endif %}>{{ item.name }}</a></li>
         {% endfor %}
       </ul>
@@ -66,7 +70,7 @@
       <div class="second-menu">
         <ul>
           {% for item in site.data.navigation %}
-          <li class="menu-element"><a href="{{ item.link }}" {% if page.url==item.link %}style="color: #b5e853" {% else
+          <li class="menu-element"><a href="{{ item.link }}" title="{{ item.name }}" {% if page.url==item.link %}style="color: #b5e853" {% else
               %}style={color: #3196ec} :hover{color: #46eac7}{% endif %}>{{ item.name }}</a></li>
           {% endfor %}
         </ul>
