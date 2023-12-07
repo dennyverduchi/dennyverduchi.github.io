@@ -86,8 +86,8 @@ body {
 }
 
 .col-menu {
-  visibility: visible;
-  width: 90%;
+  display: inline;
+  width: 10%;
   max-width: 1000px;
   margin: 40px 20px 0;
   box-sizing: border-box;
@@ -100,7 +100,7 @@ body {
 }
 
 .second-menu {
-  visibility: hidden;
+  display: none;
   position: absolute;
   box-sizing: border-box;
   font-size: 20px;
@@ -121,7 +121,7 @@ body {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   #a-title {
     font-size: 26px;
   }
@@ -147,13 +147,13 @@ body {
     margin: 0px auto 200px;
   }
   .second-menu {
-    visibility: visible;
+    display: inline;
     position: relative;
     font-size: 18px;
   }
   .col-menu {
     margin: 0px;
-    visibility: hidden;
+    display: none;
   }
 }
 /* General & 'Reset' Stuff */
@@ -417,14 +417,6 @@ a:hover {
 
 #a-title {
   text-decoration: none;
-}
-
-p * {
-  font-family: Verdana, Arial, sans-serif !important;
-}
-
-code * {
-  font-family: "Inconsolata", Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
 }
 
 /*# sourceMappingURL=style.css.map */

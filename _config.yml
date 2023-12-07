@@ -1,5 +1,5 @@
 title: Jones the Cat
-# description: "Ora sta a sentire sorella, non torno a fare quella vita,<br>sono il libero ruspante solitario. E sottolineo libero!"
+# description: "Il mio viaggio di apprendimento dentro la cybersec! E non solo..."
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
@@ -16,9 +16,13 @@ ctf:
 
 learning:
   cybersec:
+    tcp_ip: /pages/learning/cybersec/tcp_ip.html
     dns: /pages/learning/cybersec/dns.html
     eternalblue: /pages/learning/cybersec/eternalblue.html
 
+hidden:
+  experiences: /pages/hidden/experiences.html
+
   finance:
-    gestione: /pages/learning/finance/gestione.html
-    trading-investing: /pages/learning/finance/trading_investing.html
+    gestione: /pages/hidden/finance/gestione.html
+    trading_investing: /pages/hidden/finance/trading_investing.html

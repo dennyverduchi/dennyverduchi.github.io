@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Esperienze
+
 _Questo non è un curriculum, solo un riassunto della mia vita lavorativa, per chi volesse approfondire la persona dietro il "professionista" e scoprire qual è il filo rosso che collega le esperienze elencate nel mio CV._
 
 <span style="color:#46eac7">
@@ -40,7 +42,7 @@ Ho fatto amicizia con i migliori del corso e con loro ho studiato, poi sono rima
 
 Dopo qualche mese di lavoro sulla tesi ("Generation of an images dataset for autonomous driving, enriched with movement information") mi laureo con 95 nella solitudine della mia stanza, in quanto le misure anti-COVID impediscono una regolare cerimonia.
 
-Pochi giorni dopo la laurea mi trovo seduto al computer in cerca di stimoli per dare una direzione alla mia carriera e trovo un annuncio dell'università di Modena e Reggio Emilia che pubblicizza uno spin-off dei suoi corsi universitari che sarebbe iniziato da li a poco, la <a href="https://cyber.unimore.it/" target="_blank">Cyber Academy</a>. Decido quindi di iscrivermi ad entrambi i corsi che propongono, Security Analyst e Penetration Tester, per una durata complessiva di 6 mesi. Il corso mi entusiasma moltissimo e inizio ad approfondire un po' di aspetti legati alla Cyber Security, come ad esempio in quale ruolo mi vedrei di più, quali sono le notizie dell'argomento che smuovono di più il mio interesse. Finiti i due corsi però non riesco a proseguire per molto, in quanto non mi sento ancora pronto per entrare a far parte di questo mondo, lavorativamente parlando, ma la necessità di trovare un impiego si fa sempre più pressante.
+Pochi giorni dopo la laurea mi trovo seduto al computer in cerca di stimoli per dare una direzione alla mia carriera e trovo un annuncio dell'università di Modena e Reggio Emilia che pubblicizza uno spin-off dei suoi corsi universitari che sarebbe iniziato da li a poco, la <a href="https://cyber.unimore.it/" target="_blank">Cyber Academy</a>. Decido quindi di iscrivermi ad entrambi i corsi che propongono, Security Analyst e Penetration Tester, per una durata complessiva di 6 mesi. Il corso mi entusiasma moltissimo e inizio ad approfondire un po' di aspetti legati alla cybersecurity, come ad esempio in quale ruolo mi vedrei di più, quali sono le notizie dell'argomento che smuovono di più il mio interesse. Finiti i due corsi però non riesco a proseguire per molto, in quanto non mi sento ancora pronto per entrare a far parte di questo mondo, lavorativamente parlando, ma la necessità di trovare un impiego si fa sempre più pressante.
 
 <span style="color:#46eac7">inverno 2022</span>
 

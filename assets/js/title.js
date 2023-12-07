@@ -1,4 +1,4 @@
-const numCit = 9;
+const numCit = 10;
 
 window.onload = function() {
 
@@ -66,6 +66,11 @@ window.onload = function() {
 
         case 8:
             h4Element.innerText = "“Le obbligazioni ipotecarie sono merda di cane, i CDO sono merda di cane avvolta in merda di gatto.”\n(La Grande Scommessa, 2015)";
+            pElement.appendChild(h4Element);
+        break;
+
+        case 9:
+            h4Element.innerText = "“Questo non è il Vietnam, è il bowling. Ci sono delle regole.”\n(Il grande Lebowski, 1998)";
             pElement.appendChild(h4Element);
         break;
     }
