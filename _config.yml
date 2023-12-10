@@ -1,28 +1,30 @@
+permalink: /:title
+
 # title: Jones the Cat
 # description: "Il mio viaggio di apprendimento dentro la cybersec! E non solo..."
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-cv: /assets/pdf/dennyverduchi_cv_2023.pdf
+# cv: /assets/pdf/dennyverduchi_cv_2023.pdf
 
 github: https://github.com/dennyverduchi
 
 linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
 
 ctf:
-  blue: /pages/ctf/blue.html
-  legacy: /pages/ctf/legacy.html
+  blue: /pages/ctf/blue
+  legacy: /pages/ctf/legacy
 
-learning:
+learning_path:
   cybersec:
-    tcp_ip: /pages/learning/cybersec/tcp_ip.html
-    dns: /pages/learning/cybersec/dns.html
-    eternalblue: /pages/learning/cybersec/eternalblue.html
-
-hidden:
-  experiences: /pages/hidden/experiences.html
+    tcp_ip: /pages/learning_path/cybersec/tcp_ip
+    dns: /pages/learning_path/cybersec/dns
+    eternalblue: /pages/learning/cybersec/eternalblue
+    
+hidden_area:
+  experiences: /pages/hidden_area/experiences
 
   finance:
-    gestione: /pages/hidden/finance/gestione.html
-    trading_investing: /pages/hidden/finance/trading_investing.html
+    gestione: /pages/hidden_area/finance/gestione
+    trading_investing: /pages/hidden_area/finance/trading_investing

@@ -8,9 +8,9 @@ Come ho già scritto in altre pagine, non ho la pretesa che i singoli argomenti 
 
 | <span style="color:#46eac7">Cybersecurity Path</span> |
 |:--------------------------------------------------|
-| <a href="{{ site.learning.cybersec.tcp_ip }}">Modello TCP/IP</a> |
-| <a href="{{ site.learning.cybersec.dns }}">DNS</a>         |
+| <a href="{{ site.learning_path.cybersec.tcp_ip }}">Modello TCP/IP</a> |
+| <a href="{{ site.learning_path.cybersec.dns }}">DNS</a>         |
 
 
-<!-- | <a href="{{ site.learning.cybersec.eternalblue }}">EternalBlue</a>  | -->
+<!-- | <a href="{{ site.learning_path.cybersec.eternalblue }}">EternalBlue</a>  | -->
 

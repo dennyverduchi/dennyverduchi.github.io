@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 # Trading o Investing
 
 Inizialmente credevo che i termini <span style="color:#46eac7">trading</span> e <span style="color:#46eac7">investing</span> fossero equivalenti e quindi intercambiabili a piacimento. Poi ho notato che venivano usati da chi conosce l'ambiente in contesti diversi, quindi ho facilmente intuito che la differenza a cui di solito si fa più riferimento è l'orizzonte temporale.

@@ -1,8 +1,8 @@
 - name: Home
   link: /
 - name: Learning
-  link: /pages/learning_path.html
+  link: /pages/learning_path
 - name: CTF
-  link: /pages/ctf.html
+  link: /pages/ctf
 - name: .hidden
-  link: /pages/hidden_area.html
+  link: /pages/hidden_area

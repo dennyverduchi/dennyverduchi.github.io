@@ -29,7 +29,7 @@ Ecco l'algoritmo che, nel momento in cui scrivo e dopo qualche anno di lavoro, m
 1. calcolo la mia <span style="color:#46eac7">SPESA_MEDIA_MESE</span>
 1. creo un conto separato, nel quale depositare in un <span style="color:#46eac7">tempo X</span> una <span style="color:#46eac7">somma di denaro Y = (SPESA_MEDIA_MESE * NUMERO_MESI) + BUDGET_IMPREVISTI</span> (dove per me NUMERO_MESI = 12, ma mi sono confrontato con altre persone che si sentono tranquille con NUMERO_MESI = 6, altre che non accettano un NUMERO_MESI < 20, come scrivevo prima è una questione personale)
 1. termino l'accumulo di Y in un tempo X
-1. creo un piano di <a href="./trading_investing.html" target="_blank">investimenti</a> di <span style="color:#46eac7">lungo periodo</span>
+1. creo un piano di <a href="{{ site.hidden_area.finance.trading_investing }}" target="_blank">investimenti</a> di <span style="color:#46eac7">lungo periodo</span>
 1. utilizzo per le <span style="color:#46eac7">spese ordinarie</span> solo quanto rimane sul conto corrente standard, <span style="color:#46eac7">dopo</span> aver investito la quota del piano
 1. gestisco il <span style="color:#46eac7">surplus</span>. Non è detto che a fine mese sul conto sia rimasto 0, decido di lasciarlo li. A fine anno, in base a quelli che sono i miei progetti, <span style="color:#46eac7">deciderò come utilizzarlo</span>
 1. <span style="color:#46eac7">ciclicamente adatto</span> i passaggi precedenti in base ai cambiamenti

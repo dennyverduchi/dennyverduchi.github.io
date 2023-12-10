@@ -18,7 +18,7 @@ Rappresenta l'interfaccia con cui l'<span style="color:#46eac7">utente interagis
 
 Questo è il livello dove troviamo TCP (Transmission Control Protocol), che da il nome al modello, ma anche UDP (User Datagram Protocol), SSL (Secure Socket Layer) e altri.
 
-La struttura di un <span style="color:#46eac7">segmento TCP</span> è piuttosto complessa, personalmente ho trovato queste <a href="http://wpage.unina.it/rcanonic/didattica/rc/lucidi_2017/RC1-2018-L13.pdf">slide</a> molto esaustive nei confronti dell'argomento.
+La struttura di un <span style="color:#46eac7">segmento TCP</span> è piuttosto complessa, personalmente ho trovato queste <a href="http://wpage.unina.it/rcanonic/didattica/rc/lucidi_2017/RC1-2018-L13.pdf" target="_blank">slide</a> molto esaustive nei confronti dell'argomento.
 
 Nello specifico TCP usa il meccanismo <span style="color:#46eac7">sliding window</span>, che si occupa di:
 1. spedire una finestra di pacchetti alla quale assegna un timeout

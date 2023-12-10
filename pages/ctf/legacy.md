@@ -24,7 +24,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 8.51 seconds
 ```
 \
-E come in <a href="{{ site.ctf.blue }}">Blue (HTB)</a> noto la <span style="color:#46eac7">porta 445</span> per il <span style="color:#46eac7">protocollo SMB</span>, in tandem con la 139 per il protocollo NetBIOS. Lancio quindi una nuova scansione utilizzando gli script <span style="color:#46eac7">smb-os-discovery</span> e <span style="color:#46eac7">smb-protocols</span> per ottenere qualche informazione in più.
+E come in <a href="{{ site.ctf.blue }}" target="_blank">Blue (HTB)</a> noto la <span style="color:#46eac7">porta 445</span> per il <span style="color:#46eac7">protocollo SMB</span>, in tandem con la 139 per il protocollo NetBIOS. Lancio quindi una nuova scansione utilizzando gli script <span style="color:#46eac7">smb-os-discovery</span> e <span style="color:#46eac7">smb-protocols</span> per ottenere qualche informazione in più.
 
 ```bash
 ┌──(kali㉿kali)-[~]
