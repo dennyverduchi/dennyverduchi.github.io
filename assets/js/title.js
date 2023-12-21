@@ -1,4 +1,4 @@
-const numCit = 10;
+const numCit = 11;
 
 window.onload = function() {
 
@@ -25,52 +25,57 @@ window.onload = function() {
 
     switch(numRandom){
         case 0:
-            h4Element.innerText = "“Ora sta a sentire sorella, non torno a fare quella vita. Sono il libero, ruspante, solitario. E sottolineo libero!”\n(Galline in fuga, 2000)";
+            h4Element.innerText = "“Now you listen here sister, I'm not going back to that life. I'm a lone-free ranger. Emphasis on 'free'!”\n(Chicken Run, 2000)";
             pElement.appendChild(h4Element);
         break;
 
         case 1:
-            h4Element.innerText = "“Vengono fuori dalle pareti! Vengono fuori dalle fottute pareti!”\n(Aliens Scontro finale, 1986)";
+            h4Element.innerText = "“ They're coming outta the walls. They're coming outta the goddamn walls. Let's book!”\n(Aliens, 1986)";
             pElement.appendChild(h4Element);
         break;
 
         case 2:
-            h4Element.innerText = "“Strade? Dove stiamo andando non c'è bisogno di strade!”\n(Ritorno al futuro, 1985)";
+            h4Element.innerText = "“Roads? Where we're going we don't need roads.”\n(Back to the Future, 1985)";
             pElement.appendChild(h4Element);
         break;
 
         case 3:
-            h4Element.innerText = "“Non può piovere per sempre.”\n(Il Corvo, 1994)";
+            h4Element.innerText = "“It can't rain all the time.”\n(The Crow, 1994)";
             pElement.appendChild(h4Element);
         break;
 
         case 4:
-            h4Element.innerText = "“Beati gli smemorati, perché avranno la meglio anche sui loro errori.”\n(Se mi lasci ti cancello, 2004)";
+            h4Element.innerText = "“Blessed are the forgetful, for they get the better even of their blunders.”\n(Eternal Sunshine of the Spotless Mind, 2004)";
             pElement.appendChild(h4Element);
         break;
 
         case 5:
-            h4Element.innerText = "“Ho sempre pensato che la mia vita fosse una tragedia, ma ora mi rendo conto che è una cazzo di commedia!”\n(Joker, 2019)";
+            h4Element.innerText = "“ I used to think that my life was a tragedy, but now I realize, it's a fucking comedy.”\n(Joker, 2019)";
             pElement.appendChild(h4Element);
         break;
 
         case 6:
-            h4Element.innerText = "“Ci vediamo quando ci vediamo.”\n(Ocean's Thirteen, 2007)";
+            h4Element.innerText = "“I'll see you when I see you.”\n(Ocean's Thirteen, 2007)";
             pElement.appendChild(h4Element);
         break;
 
         case 7:
-            h4Element.innerText = "“Se non fumi le Tarrlytons... vaffanculo!”\n(Idiocracy, 2006)";
+            h4Element.innerText = "“If you don't smoke Tarrlytons... fuck you!”\n(Idiocracy, 2006)";
             pElement.appendChild(h4Element);
         break;
 
         case 8:
-            h4Element.innerText = "“Le obbligazioni ipotecarie sono merda di cane, i CDO sono merda di cane avvolta in merda di gatto.”\n(La Grande Scommessa, 2015)";
+            h4Element.innerText = "“So mortgage bonds are dog shit. CDOs are dog shit wrapped in cat shit.”\n(The Big Short, 2015)";
             pElement.appendChild(h4Element);
         break;
 
         case 9:
-            h4Element.innerText = "“Questo non è il Vietnam, è il bowling. Ci sono delle regole.”\n(Il grande Lebowski, 1998)";
+            h4Element.innerText = "“Smokey, this is not 'Nam. This is bowling. There are rules.”\n(The Big Lebowski, 1998)";
+            pElement.appendChild(h4Element);
+        break;
+
+        case 10:
+            h4Element.innerText = "“With great power comes great responsibility.”\n(Spider-Man, 2002)";
             pElement.appendChild(h4Element);
         break;
     }

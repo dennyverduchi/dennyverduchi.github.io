@@ -26,5 +26,5 @@ hidden_area:
   experiences: /pages/hidden_area/experiences
 
   finance:
-    gestione: /pages/hidden_area/finance/gestione
+    management: /pages/hidden_area/finance/management
     trading_investing: /pages/hidden_area/finance/trading_investing
