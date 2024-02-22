@@ -1,7 +1,12 @@
 ---
-layout: default
+layout: maintenance
 ---
 
+Hey there, my friend! 
+
+The website is undergoing a makeover... swing by soon to unveil the secrets hidden in the cybersec rabbit hole!
+
+<!-- 
 <p style="background:rgba(10, 10, 10, 0.5);">
     <span style="color:#46eac7">┌──(</span><span style="color:#3196ec">jonesthecat㉿kali</span><span style="color:#46eac7">)-[</span>~<span style="color:#46eac7">]</span><br> 
     <span style="color:#46eac7">└─</span><span style="color:#3196ec">$</span> <span style="color:#46eac7">whoami</span><br>
@@ -17,3 +22,4 @@ Voglio condividere il viaggio, non il fine. Scrivere di quello che mi interessa 
 <span style="color:#46eac7">_Il sito ha pochissimi giorni, ci sono pagine da aggiungere che arriveranno con il tempo. Per il momento c'è solo uno scheletro. Perdonate la temporanea presenza di bug, incoerenze grafiche ed elementi non responsive._</span> 
 
 <br>
+-->
