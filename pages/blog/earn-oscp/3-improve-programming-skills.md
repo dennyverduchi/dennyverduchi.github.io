@@ -117,5 +117,5 @@ This is meant to be just an example and, while it's nothing too complex, my advi
 
 <div class="row">
   <div class="column"><a href="/pages/blog/earn-oscp/2-note-taking-method" style="font-size: 18px">Back<< 2. Review Your Note-Taking Method</a></div>
-  <div class="column"><a href="/pages/blog/earn-oscp/0-earn-oscp-home" style="font-size: 18px" >Next>> 4. Learn how to write a good report</a><div>
+  <div class="column"><a href="/pages/blog/earn-oscp/4-report" style="font-size: 18px" >Next>> 4. Learn how to write a good report</a><div>
 </div>
