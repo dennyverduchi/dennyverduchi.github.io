@@ -11,3 +11,19 @@
 // {
 //    font-family: 'Inconsolata', Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
 // }
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

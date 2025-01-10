@@ -6,25 +6,13 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
-# cv: /assets/pdf/dennyverduchi_cv_2023.pdf
-
 github: https://github.com/dennyverduchi
 
 linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
 
-ctf:
-  blue: /pages/ctf/blue
-  legacy: /pages/ctf/legacy
+blog:
+  How to earn your OSCP certification (2024): /pages/blog/earn-oscp/earn-oscp-home
+  First considerations: /pages/blog/earn-oscp/first-considerations
+  Review Your Note-Taking Method: /pages/blog/earn-oscp/note-taking-method
 
-learning_path:
-  cybersec:
-    tcp_ip: /pages/learning_path/cybersec/tcp_ip
-    dns: /pages/learning_path/cybersec/dns
-    eternalblue: /pages/learning/cybersec/eternalblue
-    
-hidden_area:
-  experiences: /pages/hidden_area/experiences
-
-  finance:
-    management: /pages/hidden_area/finance/management
-    trading_investing: /pages/hidden_area/finance/trading_investing
+achievements: /pages/achievements

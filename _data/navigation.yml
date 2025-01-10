@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: Learning
-  link: /pages/learning_path
-- name: CTF
-  link: /pages/ctf
-- name: .hidden
-  link: /pages/hidden_area
+- name: Blog
+  link: /pages/blog/blog-home
+- name: VAPT Report
+  link: /pages/pentest-report
+- name: Achievements
+  link: /pages/achievements
