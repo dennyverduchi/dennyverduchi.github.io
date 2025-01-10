@@ -29,7 +29,7 @@ The structure of a report does not always have to be exactly the same. Different
 
 Below, I want to share a link to an example of a report I created, to give you an idea of how a report for a simple client commission might be structured. Keep in mind that I am not trying to give you any strict guidelines—every client is different, and every pentester has their own style. What I’m suggesting is that you try writing one yourself to personally evaluate what you think could be a valid structure. This will help you create a general template that saves time when drafting subsequent reports and is flexible enough to adapt to different contexts.
 
-<a href="/pages/pentest-report.md" style="font-size: 18px">VAPT report</a>
+<a href="/pages/pentest-report" style="font-size: 18px">VAPT report</a>
 
 Additionally, a small note: remember that your report is likely to be read not only by technical personnel but also by individuals in managerial roles. Try to divide your work into more technical chapters and more narrative chapters.
 
