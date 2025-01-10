@@ -31,6 +31,8 @@ Below, I want to share a link to an example of a report I created, to give you a
 
 Additionally, a small note: remember that your report is likely to be read not only by technical personnel but also by individuals in managerial roles. Try to divide your work into more technical chapters and more narrative chapters.
 
+<a href="/pages/pentest-report.md" style="font-size: 18px">VAPT report</a>
+
 Happy reporting!
 
 <div class="row">
