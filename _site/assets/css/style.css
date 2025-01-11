@@ -419,9 +419,14 @@ a:hover {
   text-decoration: none;
 }
 
-.column {
+.column1 {
   float: left;
-  width: 50%;
+  width: 14%;
+}
+
+.column3 {
+  float: left;
+  width: 43%;
 }
 
 .column4 {

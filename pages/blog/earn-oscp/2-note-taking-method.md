@@ -71,6 +71,7 @@ In my view, the structure should look something like this: four sections with th
 This structure helped me a lot in quickly finding exactly what I needed, without having to sift through technique information buried under theoretical concepts or notes from exercises I had completed, for example. Experiment with different approaches, but take the time you need to structure a strategy that allows you to organize a large amount of information in a way that works best for you, even after you’ve passed the certification exam.
 
 <div class="row">
-  <div class="column"><a href="/pages/blog/earn-oscp/1-first-considerations" style="font-size: 18px">Back<< 1. First considerations</a></div>
-  <div class="column"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Next>> 3. Improve your programming skills</a><div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/1-first-considerations" style="font-size: 18px">Back<< 1. First considerations</a></div>
+  <div class="column1"></div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Next>> 3. Improve your programming skills</a><div>
 </div>

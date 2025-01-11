@@ -41,6 +41,7 @@ Let’s imagine a much better (and cooler) version of JonesTheCat who can study 
 Try harder, live harder.
 
 <div class="row">
-  <div class="column"><a href="/pages/blog/earn-oscp/0-earn-oscp-home" style="font-size: 18px">Back<< Index</a></div>
-  <div class="column"><a href="/pages/blog/earn-oscp/2-note-taking-method" style="font-size: 18px" >Next>> 2. Review Your Note-Taking Method</a><div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/0-earn-oscp-home" style="font-size: 18px">Back<< Index</a></div>
+  <div class="column1"></div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/2-note-taking-method" style="font-size: 18px" >Next>> 2. Review Your Note-Taking Method</a><div>
 </div>

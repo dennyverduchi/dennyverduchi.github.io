@@ -37,6 +37,7 @@ Additionally, a small note: remember that your report is likely to be read not o
 Happy reporting!
 
 <div class="row">
-  <div class="column"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Back<< 3. Improve your programming skills</a></div>
-  <div class="column"><a href="/pages/blog/earn-oscp/0-earn-oscp-home" style="font-size: 18px" >Next>> 5. Coming soon!</a><div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Back<< 3. Improve your programming skills</a></div>
+  <div class="column1"></div>
+  <div class="column3"><a href="/pages/blog/earn-oscp/0-earn-oscp-home" style="font-size: 18px" >Next>> 5. Coming soon!</a><div>
 </div>
