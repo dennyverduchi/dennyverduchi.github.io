@@ -1,70 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!--Url Extract: 11-->
-  <url>
-    <loc>https://www.jonesthecat.net/</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>always</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/learning_path.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/ctf.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/hidden_area.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/learning_path/cybersec/tcp_ip.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/learning_path/cybersec/dns.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/ctf/blue.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/ctf/legacy.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/hidden_area/experiences.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/hidden_area/finance/management.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.jonesthecat.net/pages/hidden_area/finance/trading_investing.html</loc>
-    <lastmod>2023-12-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.jonesthecat.net/</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/blog-home</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/pentest-report</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/achievements</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/earn-oscp/0-earn-oscp-home</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/assets/pdf/pentest_report_template.pdf</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/earn-oscp/1-first-considerations</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/earn-oscp/2-note-taking-method</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/earn-oscp/3-improve-programming-skills</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.jonesthecat.net/pages/blog/earn-oscp/4-report</loc>
+  <lastmod>2025-01-11T15:09:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
