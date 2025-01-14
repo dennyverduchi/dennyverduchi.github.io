@@ -6,13 +6,6 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
 
+cv: /assets/pdf/cv_012025_en.pdf
 github: https://github.com/dennyverduchi
-
 linkedin: https://www.linkedin.com/in/denny-verduchi-a446401a4/
-
-blog:
-  How to earn your OSCP certification (2024): /pages/blog/earn-oscp/earn-oscp-home
-  First considerations: /pages/blog/earn-oscp/first-considerations
-  Review Your Note-Taking Method: /pages/blog/earn-oscp/note-taking-method
-
-achievements: /pages/achievements
