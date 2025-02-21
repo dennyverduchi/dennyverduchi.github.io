@@ -113,7 +113,7 @@ Get-ADGroup -Filter * | Select Name, GroupCategory, DistinguishedName
 <span style="color: lightcoral">Overly Permissive Queries</span>: restrict user permissions and avoid excessive LDAP query responses.
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/enum-techniques/0-enum-techniques-home" style="font-size: 18px">Back<< Index</a></div>
+  <div class="column3"><a href="/pages/blog/enum-techniques/1-smb" style="font-size: 18px">Back<< SMB (Server Message Block)</a></div>
   <div class="column1"></div>
   <div class="column3"><a href="/pages/blog/blog-home" style="font-size: 18px" >Next>> Coming soon!</a><div>
 </div>

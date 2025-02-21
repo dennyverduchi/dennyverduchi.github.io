@@ -91,3 +91,9 @@ Implement <span style="color: lightcoral">strong authentication</span> and enfor
 Use <span style="color: lightcoral">firewalls</span> to limit SMB access to trusted IPs.
 
 <span style="color: lightcoral">Regularly patch</span> and update the SMB service.
+
+<div class="row">
+  <div class="column3"><a href="/pages/blog/enum-techniques/0-enum-techniques-home" style="font-size: 18px">Back<< Index</a></div>
+  <div class="column1"></div>
+  <div class="column3"><a href="/pages/blog/enum-techniques/2-ldap" style="font-size: 18px" >Next>> LDAP (Lightweight Directory Access Protocol)</a><div>
+</div>
