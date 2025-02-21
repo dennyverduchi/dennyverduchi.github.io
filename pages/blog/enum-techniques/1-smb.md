@@ -16,7 +16,7 @@ nmap -p 139,445 --script smb-os-discovery <TARGET-IP>
 
 ## SMB Enumeration
 
-### 1. Version
+### Version
 
 Understanding the SMB version can help assess vulnerabilities. Use the following Nmap script:
 
@@ -24,7 +24,7 @@ Understanding the SMB version can help assess vulnerabilities. Use the following
 nmap --script smb-protocols -p 139,445 <TARGET-IP>
 ```
 
-### 2. Listing Shared Folders
+### Listing Shared Folders
 
 To list accessible shares, use the smbclient tool, which is part of the Samba suite:
 
@@ -32,9 +32,9 @@ To list accessible shares, use the smbclient tool, which is part of the Samba su
 smbclient -L //<TARGET-IP> -N
 ```
 
--N: attempts an anonymous login. If anonymous access is disabled, authentication may be required.
+<span style="color: lightcoral">-N</span>: attempts an anonymous login. If anonymous access is disabled, authentication may be required.
 
-### 3. SMB Users
+### SMB Users
 
 To extract user information, use enum4linux:
 
@@ -50,7 +50,7 @@ set RHOSTS <TARGET-IP>
 run
 ```
 
-### 4. Extracting Workgroup and Domain Information
+### Extracting Workgroup and Domain Information
 
 Use the following enum4linux command:
 
@@ -60,7 +60,7 @@ enum4linux -n <TARGET-IP>
 
 This can reveal the system’s workgroup, domain name, and NetBIOS details.
 
-### 5. Testing Null Sessions
+### Testing Null Sessions
 
 Some misconfigured SMB servers allow unauthenticated queries (null sessions). To check for this, use rpcclient:
 
@@ -70,7 +70,7 @@ rpcclient -U "" <TARGET-IP>
 
 If access is granted, issue commands like querydominfo or enumdomusers to extract information.
 
-### 6. SMB Shares with Nmap
+### SMB Shares with Nmap
 
 Another method to list SMB shares is through Nmap’s smb-enum-shares script:
 
@@ -79,3 +79,15 @@ nmap --script smb-enum-shares -p 445 <TARGET-IP>
 ```
 
 This reveals share names and access permissions.
+
+## Security Risks & Mitigations
+
+<span style="color: lightcoral">Disable SMBv1</span> (as it is outdated and vulnerable to attacks like [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue)).
+
+<span style="color: lightcoral">Restrict anonymous access</span> to shared resources.
+
+Implement <span style="color: lightcoral">strong authentication</span> and enforce NTLMv2.
+
+Use <span style="color: lightcoral">firewalls</span> to limit SMB access to trusted IPs.
+
+<span style="color: lightcoral">Regularly patch</span> and update the SMB service.
