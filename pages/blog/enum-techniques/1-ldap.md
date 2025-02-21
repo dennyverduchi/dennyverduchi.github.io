@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# LDAP Enumeration
+# LDAP (Lightweight Directory Access Protocol)
 
 Lightweight Directory Access Protocol (LDAP) is a widely used protocol for managing and accessing directory services, such as Microsoft Active Directory (AD). Security professionals, penetration testers, and attackers alike use LDAP enumeration to extract valuable information from a target system.
 
@@ -32,6 +32,13 @@ Once you've identified an active LDAP service, the next step is to enumerate it.
 ```
 ldapsearch -H ldap://<IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
 ```
+-x: uses simple (anonymous) authentication, without SASL (Simple Authentication and Security Layer)
+
+-s base: limits the search to the "base" level of the LDAP tree, returning only the entry root (rootDSE)
+
+-b '': specifies the DN (Distinguished Name) for the base search. In this case, it is empty because the query is directed at the rootDSE
+
+"(objectClass=*)": an LDAP filter that returns all the entries available at the specified level (in this case, the rootDSE)
 If credentials are available, use:
 
 ```
@@ -61,7 +68,7 @@ windapsearch-linux-amd64 -d example.com --dc <IP> -m
 ```
 [github repo](https://github.com/ropnop/go-windapsearch)
 
-### Nmap NSE Scripts
+## Nmap NSE Scripts
 
 Nmap has powerful scripts for LDAP enumeration:
 
@@ -80,7 +87,7 @@ Nmap has powerful scripts for LDAP enumeration:
 
 These scripts can provide valuable insights, such as domain structure and available users.
 
-### PowerShell
+## PowerShell
 
 On a Windows machine with access to an LDAP server, PowerShell can be used to enumerate users and groups:
 
