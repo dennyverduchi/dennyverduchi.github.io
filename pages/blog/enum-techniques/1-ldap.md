@@ -18,7 +18,7 @@ LDAP typically operates on the following ports:
 - 3269 (TCP): Global Catalog service over SSL
 
 ```
-nmap -p 389,636,3268,3269 -sV --script=ldap-rootdse <IP>
+nmap -p 389,636,3268,3269 -sV --script=ldap-rootdse <TARGET-IP>
 ```
 
 ## LDAP Enumeration
@@ -30,7 +30,7 @@ Once you've identified an active LDAP service, the next step is to enumerate it.
 ### ldapsearch
 
 ```
-ldapsearch -H ldap://<IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
+ldapsearch -H ldap://<TARGET-IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
 ```
 <span style="color: lightcoral">-x</span>: uses simple (anonymous) authentication, without SASL (Simple Authentication and Security Layer)
 
@@ -43,14 +43,14 @@ ldapsearch -H ldap://<IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
 If credentials are available, use:
 
 ```
-ldapsearch -x -D "CN=admin,CN=Users,DC=example,DC=com" -w "password" -H ldap://<IP>:<PORT>/ -b "DC=example,DC=com"
+ldapsearch -x -D "CN=admin,CN=Users,DC=example,DC=com" -w "password" -H ldap://<TARGET-IP>:<PORT>/ -b "DC=example,DC=com"
 ```
 
 This retrieves all LDAP objects under the base domain.
 
 ### go-windapsearch
 ```
-windapsearch-linux-amd64 -d example.com --dc <IP> -m          
+windapsearch-linux-amd64 -d example.com --dc <TARGET-IP> -m          
 [!] You must specify a valid module to use
  Available modules: 
     admin-objects       Enumerate all objects with protected ACLs (i.e admins)
@@ -76,13 +76,13 @@ Nmap has powerful scripts for LDAP enumeration:
 - Extract basic info
     
     ```
-    nmap -p 389 --script=ldap-rootdse <IP>
+    nmap -p 389 --script=ldap-rootdse <TARGET-IP>
     ```
     
 - Enumerate users
     
     ```
-    nmap -p 389 --script=ldap-search <IP>
+    nmap -p 389 --script=ldap-search <TARGET-IP>
     ```
     
 
