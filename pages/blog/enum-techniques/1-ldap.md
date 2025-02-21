@@ -32,13 +32,14 @@ Once you've identified an active LDAP service, the next step is to enumerate it.
 ```
 ldapsearch -H ldap://<IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
 ```
--x: uses simple (anonymous) authentication, without SASL (Simple Authentication and Security Layer)
+<span style="color: lightcoral">-x</span>: uses simple (anonymous) authentication, without SASL (Simple Authentication and Security Layer)
 
--s base: limits the search to the "base" level of the LDAP tree, returning only the entry root (rootDSE)
+<span style="color: lightcoral">-s base</span>: limits the search to the "base" level of the LDAP tree, returning only the entry root (rootDSE)
 
--b '': specifies the DN (Distinguished Name) for the base search. In this case, it is empty because the query is directed at the rootDSE
+<span style="color: lightcoral">-b ''</span>: specifies the DN (Distinguished Name) for the base search. In this case, it is empty because the query is directed at the rootDSE
 
-"(objectClass=*)": an LDAP filter that returns all the entries available at the specified level (in this case, the rootDSE)
+<span style="color: lightcoral">"(objectClass=*)"</span>: an LDAP filter that returns all the entries available at the specified level (in this case, the rootDSE)
+
 If credentials are available, use:
 
 ```
