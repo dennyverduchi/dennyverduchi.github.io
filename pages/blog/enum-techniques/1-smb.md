@@ -82,7 +82,7 @@ This reveals share names and access permissions.
 
 ## Security Risks & Mitigations
 
-<span style="color: lightcoral">Disable SMBv1</span> (as it is outdated and vulnerable to attacks like [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue)).
+<span style="color: lightcoral">Disable SMBv1</span> (as it is outdated and vulnerable to attacks like <a href="https://en.wikipedia.org/wiki/EternalBlue" target="_blank">EternalBlue</a>).
 
 <span style="color: lightcoral">Restrict anonymous access</span> to shared resources.
 

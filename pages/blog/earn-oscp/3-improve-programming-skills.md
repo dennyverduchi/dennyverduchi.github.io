@@ -75,7 +75,7 @@ Let's divert the discussion for a moment to return to a key point later - for th
 
 This is true for web applications that we can access through browsers, as well as for local software we use daily. Personally, I find this site very interesting to get a clear sense of scale for what we're talking about:
 
-<a href="https://informationisbeautiful.net/visualizations/million-lines-of-code/" style="font-size: 18px">Codebases - Millions of lines of code</a>
+<a href="https://informationisbeautiful.net/visualizations/million-lines-of-code/" target="_blank">Codebases - Millions of lines of code</a>
 
 ![2552_Lines_of_code_Dec18_FB.png](/assets/images/earn-oscp/cap3/2552_Lines_of_code_Dec18_FB.png)
 

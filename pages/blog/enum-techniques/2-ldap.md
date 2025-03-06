@@ -25,7 +25,7 @@ nmap -p 389,636,3268,3269 -sV --script=ldap-rootdse <TARGET-IP>
 
 Once you've identified an active LDAP service, the next step is to enumerate it. This can be done using built-in Linux tools, PowerShell, or specialized tools like ldapsearch.
 
-[LDAP anonymous binds](https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/anonymous-ldap-operations-active-directory-disabled) allow unauthenticated attackers to retrieve information from the domain, such as a complete listing of users, groups, computers, user account attributes, and the domain password policy. This is a legacy configuration, and as of Windows Server 2003, only authenticated users are permitted to initiate LDAP requests.
+<a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/anonymous-ldap-operations-active-directory-disabled" target="_blank">LDAP anonymous binds</a> allow unauthenticated attackers to retrieve information from the domain, such as a complete listing of users, groups, computers, user account attributes, and the domain password policy. This is a legacy configuration, and as of Windows Server 2003, only authenticated users are permitted to initiate LDAP requests.
 
 ### ldapsearch
 
@@ -67,7 +67,7 @@ windapsearch-linux-amd64 -d example.com --dc <TARGET-IP> -m
     user-spns           Enumerate all users objects with Service Principal Names (for kerberoasting)
     users               List all user objects
 ```
-[github repo](https://github.com/ropnop/go-windapsearch)
+<a href="https://github.com/ropnop/go-windapsearch" target="_blank">github repo</a>
 
 ## Nmap NSE Scripts
 
