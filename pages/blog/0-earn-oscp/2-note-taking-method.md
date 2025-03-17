@@ -8,7 +8,7 @@ It might seem simple, but one of the skills I improved the most during my OSCP c
 
 This isn’t to say that the study material isn’t well-organized or doesn’t provide the right tools for effective preparation. Rather, I’m highlighting the difficulty of understanding from the outset how the various topics interconnect to form the comprehensive knowledge needed to pass the exam. Each topic could require deep exploration to be fully understood. It’s not always necessary to delve that deep to be competent in what you’re doing, although every new detail you learn certainly enhances your overall ability.
 
-![cpp_program_example.png](/assets/images/earn-oscp/cap2/cpp_program_example.png)
+![cpp_program_example.png](/assets/images/0-earn-oscp/cap2/cpp_program_example.png)
 
 For a simple example, even highly experienced C++ programmers may not fully understand the exact steps the compiler takes. This might not be necessary for them. For instance, I’m not a particularly skilled programmer, but I know that the code I write gets compiled and translated into a lower-level language, converting it into a set of instructions (operationally equivalent to what I wrote in C++) that the computer, depending on its architecture, interprets as strings of 0s and 1s, corresponding to stages of square wave electrical signals.   
 
@@ -71,7 +71,7 @@ In my view, the structure should look something like this: four sections with th
 This structure helped me a lot in quickly finding exactly what I needed, without having to sift through technique information buried under theoretical concepts or notes from exercises I had completed, for example. Experiment with different approaches, but take the time you need to structure a strategy that allows you to organize a large amount of information in a way that works best for you, even after you’ve passed the certification exam.
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/earn-oscp/1-first-considerations" style="font-size: 18px">Back<< 1. First considerations</a></div>
+  <div class="column3"><a href="/pages/blog/0-earn-oscp/1-first-considerations" style="font-size: 18px">Back<< 1. First considerations</a></div>
   <div class="column1"></div>
-  <div class="column3"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Next>> 3. Improve your programming skills</a><div>
+  <div class="column3"><a href="/pages/blog/0-earn-oscp/3-improve-programming-skills" style="font-size: 18px">Next>> 3. Improve your programming skills</a><div>
 </div>

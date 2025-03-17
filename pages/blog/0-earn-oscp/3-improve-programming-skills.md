@@ -14,7 +14,7 @@ Personally, I believe that as an initial step, one of the most useful approaches
 
 Let's start gradually, let's open any web page:
 
-![example.com.png](/assets/images/earn-oscp/cap3/example.com.png)
+![example.com.png](/assets/images/0-earn-oscp/cap3/example.com.png)
 
 By pressing CTRL+U on the web page, you can examine its code.
 
@@ -77,13 +77,13 @@ This is true for web applications that we can access through browsers, as well a
 
 <a href="https://informationisbeautiful.net/visualizations/million-lines-of-code/" target="_blank">Codebases - Millions of lines of code</a>
 
-![2552_Lines_of_code_Dec18_FB.png](/assets/images/earn-oscp/cap3/2552_Lines_of_code_Dec18_FB.png)
+![2552_Lines_of_code_Dec18_FB.png](/assets/images/0-earn-oscp/cap3/2552_Lines_of_code_Dec18_FB.png)
 
 This premise is necessary to understand what we're dealing with most of the time when we try to interact with code written by others. The rule suggests that good code should be well-commented, but those who have already dealt with experiences of this type know well that this rarely happens. Being able to navigate through code, for example of a web page, even without understanding in detail what it does, can lead to interesting discoveries of useful information left in the comments by those who wrote it, for example.
 
 The example below is a simple one, but I have encountered situations like this even in actively running applications (you can view the web page code by pressing F12 - browser dev tools are a very useful tool to learn how to leverage).
 
-![example-web-page.png](/assets/images/earn-oscp/cap3/example-web-page.png)
+![example-web-page.png](/assets/images/0-earn-oscp/cap3/example-web-page.png)
 
 Regarding "classic" software code, it's very useful to start experimenting by getting your hands dirty firsthand. I believe my opinion aligns with the common one, which is to start playing with Python, a rather simple language for learning the basics that could also prove useful in the initial phases of scripting for performing penetration tests. For example, in the case below, I had recently started playing with laboratory machines provided by various dedicated platforms (like Hack the Box, Try Hack Me etc.), and I wanted to experiment by writing a login script for a WordPress page, using a list of hypothetical passwords for the username "james" obtained from previous reconnaissance operations.
 
@@ -116,7 +116,7 @@ dictionary.close()
 This is meant to be just an example and, while it's nothing too complex, my advice is to approach the fundamental concepts gradually. There are many books and video tutorials that explain Python basics very well - it won't be difficult to start writing your first lines of code.
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/earn-oscp/2-note-taking-method" style="font-size: 18px">Back<< 2. Review Your Note-Taking Method</a></div>
+  <div class="column3"><a href="/pages/blog/0-earn-oscp/2-note-taking-method" style="font-size: 18px">Back<< 2. Review Your Note-Taking Method</a></div>
   <div class="column1"></div>
-  <div class="column3"><a href="/pages/blog/earn-oscp/4-report" style="font-size: 18px" >Next>> 4. Learn how to write a good report</a><div>
+  <div class="column3"><a href="/pages/blog/0-earn-oscp/4-report" style="font-size: 18px" >Next>> 4. Learn how to write a good report</a><div>
 </div>

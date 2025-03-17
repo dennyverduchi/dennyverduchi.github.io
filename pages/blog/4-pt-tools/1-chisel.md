@@ -128,7 +128,7 @@ This method hides the tunnel within HTTPS traffic, bypassing deep packet inspect
 <span style="color: lightcoral">Deploy deep packet inspection (DPI)</span> to detect unusual HTTPS traffic patterns.
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/pt-tools/0-pt-tools-home" style="font-size: 18px">Back<< Index</a></div>
+  <div class="column3"><a href="/pages/blog/4-pt-tools/0-pt-tools-home" style="font-size: 18px">Back<< Index</a></div>
   <div class="column1"></div>
   <div class="column3"><a href="/pages/blog/blog-home" style="font-size: 18px" >Next>> Coming soon!</a><div>
 </div>

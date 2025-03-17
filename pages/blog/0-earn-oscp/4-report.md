@@ -21,7 +21,7 @@ Let’s take it step by step. Suppose the client provides us with an entry point
 Probably one of the first things we will do is perform a scan (Nmap) of the EP machine. Let’s assume we find some open ports with exposed services that may not be necessary. This first step is an event to record both in our timestamp of operations performed and as evidence to show in the final report presented to our client.
 
 As for the event timestamp, I personally find it effective to maintain a spreadsheet structured as follows:
-![timestamp.png](/assets/images/earn-oscp/cap4/timestamp.PNG)
+![timestamp.png](/assets/images/0-earn-oscp/cap4/timestamp.PNG)
 
 As for the report, we must remember to take a screenshot of the screen for each critical step of our penetration test. For this reason, it is essential to have a well-organized structure of subfolders for the evidence we collect. A good methodology is to always keep in mind that, in addition to providing proof of the actions performed during the work, we are essentially building a detailed guide that allows an external technician to replicate all the steps we performed and achieve the same results.
 
@@ -37,7 +37,7 @@ Additionally, a small note: remember that your report is likely to be read not o
 Happy reporting!
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/earn-oscp/3-improve-programming-skills" style="font-size: 18px">Back<< 3. Improve your programming skills</a></div>
+  <div class="column3"><a href="/pages/blog/0-earn-oscp/3-improve-programming-skills" style="font-size: 18px">Back<< 3. Improve your programming skills</a></div>
   <div class="column1"></div>
   <div class="column3"><a href="/pages/blog/blog-home" style="font-size: 18px" >Next>> 5. Coming soon!</a><div>
 </div>

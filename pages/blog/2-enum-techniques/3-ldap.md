@@ -2,13 +2,14 @@
 layout: default
 ---
 
-# LDAP (Lightweight Directory Access Protocol)
+# Enumeration techniques
+## LDAP (Lightweight Directory Access Protocol)
 
 Lightweight Directory Access Protocol (LDAP) is a widely used protocol for managing and accessing directory services, such as Microsoft Active Directory (AD). Security professionals, penetration testers, and attackers alike use LDAP enumeration to extract valuable information from a target system.
 
 Let's explore how to enumerate an open LDAP port, identify key information, and understand potential security risks.
 
-## LDAP Port
+### LDAP Port
 
 LDAP typically operates on the following ports:
 
@@ -21,13 +22,13 @@ LDAP typically operates on the following ports:
 nmap -p 389,636,3268,3269 -sV --script=ldap-rootdse <TARGET-IP>
 ```
 
-## LDAP Enumeration
+### LDAP Enumeration
 
 Once you've identified an active LDAP service, the next step is to enumerate it. This can be done using built-in Linux tools, PowerShell, or specialized tools like ldapsearch.
 
 <a href="https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/anonymous-ldap-operations-active-directory-disabled" target="_blank">LDAP anonymous binds</a> allow unauthenticated attackers to retrieve information from the domain, such as a complete listing of users, groups, computers, user account attributes, and the domain password policy. This is a legacy configuration, and as of Windows Server 2003, only authenticated users are permitted to initiate LDAP requests.
 
-### ldapsearch
+#### ldapsearch
 
 ```
 ldapsearch -H ldap://<TARGET-IP>:<PORT>/ -x -s base -b '' "(objectClass=*)"
@@ -48,7 +49,7 @@ ldapsearch -x -D "CN=admin,CN=Users,DC=example,DC=com" -w "password" -H ldap://<
 
 This retrieves all LDAP objects under the base domain.
 
-### go-windapsearch
+#### go-windapsearch
 ```
 windapsearch-linux-amd64 -d example.com --dc <TARGET-IP> -m          
 [!] You must specify a valid module to use
@@ -69,7 +70,7 @@ windapsearch-linux-amd64 -d example.com --dc <TARGET-IP> -m
 ```
 <a href="https://github.com/ropnop/go-windapsearch" target="_blank">github repo</a>
 
-## Nmap NSE Scripts
+### Nmap NSE Scripts
 
 Nmap has powerful scripts for LDAP enumeration:
 
@@ -88,7 +89,7 @@ Nmap has powerful scripts for LDAP enumeration:
 
 These scripts can provide valuable insights, such as domain structure and available users.
 
-## PowerShell
+### PowerShell
 
 On a Windows machine with access to an LDAP server, PowerShell can be used to enumerate users and groups:
 
@@ -102,7 +103,7 @@ To enumerate groups:
 Get-ADGroup -Filter * | Select Name, GroupCategory, DistinguishedName
 ```
 
-## Security Risks & Mitigations
+### Security Risks & Mitigations
 
 <span style="color: lightcoral">Anonymous Binding</span>: if enabled, attackers can extract sensitive data without credentials. Disable anonymous binds in the LDAP configuration.
 
@@ -113,7 +114,7 @@ Get-ADGroup -Filter * | Select Name, GroupCategory, DistinguishedName
 <span style="color: lightcoral">Overly Permissive Queries</span>: restrict user permissions and avoid excessive LDAP query responses.
 
 <div class="row">
-  <div class="column3"><a href="/pages/blog/enum-techniques/1-smb" style="font-size: 18px">Back<< SMB (Server Message Block)</a></div>
+  <div class="column3"><a href="/pages/blog/2-enum-techniques/2-smb" style="font-size: 18px">Back<< SMB (Server Message Block)</a></div>
   <div class="column1"></div>
   <div class="column3"><a href="/pages/blog/blog-home" style="font-size: 18px" >Next>> Coming soon!</a><div>
 </div>
