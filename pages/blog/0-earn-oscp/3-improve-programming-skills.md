@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# How to earn your OSCP certification (2024)
+# How to earn your OSCP certification (2025)
 ## 3. Improve your programming skills
 
 Let's start with a perhaps obvious premise, but one that if not clarified could discourage those approaching the goal of obtaining an OSCP certification (or similar) without coming from other IT sectors.

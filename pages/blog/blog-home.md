@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[How to earn your OSCP certification (2024)](/pages/blog/0-earn-oscp/0-earn-oscp-home)
+[How to earn your OSCP certification (2025)](/pages/blog/0-earn-oscp/0-earn-oscp-home)
 
 [Reconnaissance](/pages/blog/1-recon/0-recon-home)
 
