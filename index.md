@@ -18,7 +18,7 @@ The website is undergoing a makeover... swing by soon to unveil the secrets hidd
 \
 What topics do I cover? It depends, whatever I feel like. Generally the scope is cybersecurity, but I like not to set boundaries and also talk about topics that are only marginally related.
 
-<br>
+<img src="/assets/images/thinkpad2.png" alt="thinkpad" style="width: 50%; height: auto; display: block; margin-left: auto; margin-right: auto;">
 
 <!-- Hi friend,
 
