@@ -4,7 +4,7 @@ layout: default
 
 # How to earn your OSCP certification (2025)
 
-[1. First considerations](/pages/blog/0-earn-oscp/1-first-considerations)
+[1. Try harder, live harder](/pages/blog/0-earn-oscp/1-first-considerations)
 
 [2. Review your note-taking method](/pages/blog/0-earn-oscp/2-note-taking-method)
 
